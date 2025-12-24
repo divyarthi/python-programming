@@ -1,3 +1,4 @@
+import helper
 def hello_world(name):
     """
     docstring
@@ -6,3 +7,4 @@ def hello_world(name):
 
 if __name__=="__main__":
     hello_world('divya')
+    helper.print_time()
